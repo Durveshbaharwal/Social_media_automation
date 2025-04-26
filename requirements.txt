@@ -1,0 +1,4 @@
+selenium==4.6.0
+tkinter
+webdriver-manager==3.8.5
+json

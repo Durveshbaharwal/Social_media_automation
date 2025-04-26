@@ -1,0 +1,44 @@
+{
+    "title": "affafaf",
+    "text": "afafa",
+    "hashtags": "afafa",
+    "media_type": "All",
+    "media_paths": [
+        "E:/Videos/pxfuel.jpg",
+        "E:/Videos/03.01.2022_11.09.16_REC.mp4"
+    ],
+    "platforms": {
+        "Facebook": true,
+        "Instagram": false,
+        "Twitter": false,
+        "LinkedIn": false
+    },
+    "facebook_options": {
+        "story_selected": true,
+        "post_selected": false,
+        "story_options": "Text Story",
+        "post_options": {
+            "Only Text": false,
+            "Only Image": false,
+            "Only Video": false,
+            "All": false
+        }
+    },
+    "linkedin_option": "None",
+    "instagram_options": {
+        "Post": false,
+        "Reel": false,
+        "Story": false
+    },
+    "instagram_post_orientation": "",
+    "instagram_reel_orientation": "",
+    "twitter_options": {
+        "Only Text": false,
+        "Only Videos": false,
+        "Only Images": false,
+        "All": false
+    },
+    "schedule_post": false,
+    "schedule_time": "",
+    "repeat_frequency": "None"
+}

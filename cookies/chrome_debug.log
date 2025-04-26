@@ -1,0 +1,12 @@
+[29128:27472:0426/181436.202:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
+[29128:27472:0426/181439.989:INFO:CONSOLE(249)] "
+%cStop! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black;", source: https://static.xx.fbcdn.net/rsrc.php/v4/yQ/r/TuGctoHs6q_.js (249)
+[29128:27472:0426/181439.989:INFO:CONSOLE(249)] "
+%cThis is a browser feature intended for developers. If someone told you to copy and paste something here to enable a Facebook feature or "hack" someone's account, it is a scam and will give them access to your Facebook account. font-family:helvetica; font-size:20px; ", source: https://static.xx.fbcdn.net/rsrc.php/v4/yQ/r/TuGctoHs6q_.js (249)
+[29128:27472:0426/181439.989:INFO:CONSOLE(249)] "
+%cSee https://www.facebook.com/selfxss for more information. font-family:helvetica; font-size:20px; ", source: https://static.xx.fbcdn.net/rsrc.php/v4/yQ/r/TuGctoHs6q_.js (249)
+[29128:27472:0426/181439.989:INFO:CONSOLE(249)] "
+%c ", source: https://static.xx.fbcdn.net/rsrc.php/v4/yQ/r/TuGctoHs6q_.js (249)
+[29128:23484:0426/181443.490:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+[30448:28904:0426/181450.475:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[30448:28904:0426/181450.476:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
