@@ -1,12 +1,23 @@
-[29128:27472:0426/181436.202:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
-[29128:27472:0426/181439.989:INFO:CONSOLE(249)] "
-%cStop! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black;", source: https://static.xx.fbcdn.net/rsrc.php/v4/yQ/r/TuGctoHs6q_.js (249)
-[29128:27472:0426/181439.989:INFO:CONSOLE(249)] "
-%cThis is a browser feature intended for developers. If someone told you to copy and paste something here to enable a Facebook feature or "hack" someone's account, it is a scam and will give them access to your Facebook account. font-family:helvetica; font-size:20px; ", source: https://static.xx.fbcdn.net/rsrc.php/v4/yQ/r/TuGctoHs6q_.js (249)
-[29128:27472:0426/181439.989:INFO:CONSOLE(249)] "
-%cSee https://www.facebook.com/selfxss for more information. font-family:helvetica; font-size:20px; ", source: https://static.xx.fbcdn.net/rsrc.php/v4/yQ/r/TuGctoHs6q_.js (249)
-[29128:27472:0426/181439.989:INFO:CONSOLE(249)] "
-%c ", source: https://static.xx.fbcdn.net/rsrc.php/v4/yQ/r/TuGctoHs6q_.js (249)
-[29128:23484:0426/181443.490:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-[30448:28904:0426/181450.475:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
-[30448:28904:0426/181450.476:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[7992:2756:0427/121644.592:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
+[7992:2756:0427/121652.231:INFO:CONSOLE(2)] "Error", source: https://client.protechts.net/PXdOjV695v/main.min.js (2)
+[6760:4912:0427/121652.962:INFO:peer_connection_dependency_factory.cc(802)] Running WebRTC with a combined Network and Worker thread.
+[6760:4912:0427/121653.850:WARNING:codec.cc(386)] Explicitly added H264 constrained baseline to list of supported formats.
+[7992:2756:0427/121654.705:INFO:CONSOLE(8)] "visitor.publishDestinations() result: The destination publishing iframe is already attached and loaded.", source: https://platform.linkedin.com/litms/utag/voyager-web-feed/utag.js?cb=1745736300000 (8)
+[7992:2756:0427/121654.891:INFO:CONSOLE(49)] "Refused to create a TrustedTypePolicy named 'goog#html' because it violates the following Content Security Policy directive: "trusted-types 'allow-duplicates' default jSecure highcharts dompurify".", source: https://www.googletagmanager.com/gtag/js (49)
+[7992:2756:0427/121655.237:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[7992:2756:0427/121655.237:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[7992:2756:0427/121655.341:INFO:CONSOLE(146)] "Refused to create a TrustedTypePolicy named 'goog#html' because it violates the following Content Security Policy directive: "trusted-types 'allow-duplicates' default jSecure highcharts dompurify".", source: https://www.googletagmanager.com/gtag/js?id=AW-867846157&l=dataLayer&cx=c&gtm=453e54n0za200&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001 (146)
+[7992:2756:0427/121655.587:INFO:CONSOLE(2737)] "quill Overwriting modules/clipboard with class extends n{onPaste(t){var e
+if(null===(e=t.clipboardData)||void 0===e?void 0:e.getData("text/link-preview")){const e=this.quill.getSelection()
+if(!e)return super.onPaste(t)
+t.preventDefault()
+const n=t.clipboardData.getData("text/plain"),s=(new i).retain(e.index).delete(e.length).insert(n)
+this.quill.updateContents(s,"silent")
+const r=n.length+e.index,o=0
+this.quill.setSelection(r,o,"silent")}return super.onPaste(t)}}", source: https://static.licdn.com/aero-v1/sc/h/e0b6prpt5357i2geyhzd7v9fg (2737)
+[7992:2756:0427/121655.613:INFO:CONSOLE(3287)] "Listener added for a 'DOMNodeInserted' mutation event. Support for this event type has been removed, and this event will no longer be fired. See https://chromestatus.com/feature/5083947249172480 for more information.", source: https://static.licdn.com/aero-v1/sc/h/e0b6prpt5357i2geyhzd7v9fg (3287)
+[7992:2756:0427/121655.755:INFO:CONSOLE(8)] "visitor.publishDestinations() result: The destination publishing iframe is already attached and loaded.", source: https://platform.linkedin.com/litms/utag/voyager-web-feed/utag.js?cb=1745736300000 (8)
+[7992:2756:0427/121706.781:INFO:CONSOLE(3287)] "Listener added for a 'DOMNodeInserted' mutation event. Support for this event type has been removed, and this event will no longer be fired. See https://chromestatus.com/feature/5083947249172480 for more information.", source: https://static.licdn.com/aero-v1/sc/h/e0b6prpt5357i2geyhzd7v9fg (3287)
+[7992:2756:0427/121708.238:INFO:CONSOLE(8)] "visitor.publishDestinations() result: The destination publishing iframe is already attached and loaded.", source: https://platform.linkedin.com/litms/utag/voyager-web-feed/utag.js?cb=1745736300000 (8)
+[4032:27384:0427/121712.693:INFO:peer_connection_dependency_factory.cc(802)] Running WebRTC with a combined Network and Worker thread.
+[4032:27384:0427/121712.698:WARNING:codec.cc(386)] Explicitly added H264 constrained baseline to list of supported formats.
