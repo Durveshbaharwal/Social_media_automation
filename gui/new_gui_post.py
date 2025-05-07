@@ -1,11 +1,34 @@
 import tkinter as tk
+import os
+import sys
+
 from tkinter import messagebox, ttk, filedialog
 import datetime
-from gui.manage_platforms_gui import manage_platforms_gui
-from utils.scheduler import schedule_post_with_repeat
-from dispatcher.post_dispatcher import dispatch_post
-from utils.logger import log_post
+
+# Add the root directory of the project to sys.path
+root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.append(root_dir)
+
+# Print sys.path to verify the correct paths
+print("Current sys.path:", sys.path)
+
+# Check if the dispatcher folder exists in sys.path
+if root_dir not in sys.path:
+    print("Error: Root directory not found in sys.path")
+else:
+    print("Root directory found in sys.path")
+
+# Importing the dispatcher module now that we've ensured sys.path is correct
+try:
+    from dispatcher.post_dispatcher import dispatch_post
+except ModuleNotFoundError as e:
+    print(f"Error: {e}")
+    sys.exit(1)
+
 import json
+
+
+
 
 class PostCreationApp:
     def __init__(self, root):
@@ -167,7 +190,6 @@ class PostCreationApp:
         self.frequency_menu = ttk.Combobox(root, textvariable=self.frequency_var, values=["None", "Daily", "Weekly"], state="readonly")
 
         # --- Post Button ---
-        self.manage_button = tk.Button(root, text="Manage Profile", command=manage_platforms_gui, bg="#FF9800", fg="white")
         self.post_button = tk.Button(root, text="Post", command=self.create_post)
 
         self.layout_widgets()

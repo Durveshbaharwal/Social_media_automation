@@ -1,2 +1,3 @@
-2025/05/07-15:48:47.731 2a1c Creating DB C:\social_media_automation\cookies\durvesh\instagram\Default\shared_proto_db\metadata since it was missing.
-2025/05/07-15:48:47.742 2a1c Reusing MANIFEST C:\social_media_automation\cookies\durvesh\instagram\Default\shared_proto_db\metadata/MANIFEST-000001
+2025/05/07-15:54:01.327 3a00 Reusing MANIFEST C:\social_media_automation\cookies\durvesh\instagram\Default\shared_proto_db\metadata/MANIFEST-000001
+2025/05/07-15:54:01.329 3a00 Recovering log #3
+2025/05/07-15:54:01.333 3a00 Reusing old log C:\social_media_automation\cookies\durvesh\instagram\Default\shared_proto_db\metadata/000003.log 

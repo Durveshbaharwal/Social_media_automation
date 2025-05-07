@@ -1,2 +1,3 @@
-2025/05/07-15:50:52.339 75fc Creating DB C:\social_media_automation\cookies\durvesh\linkedin\Default\Local Storage\leveldb since it was missing.
-2025/05/07-15:50:52.602 75fc Reusing MANIFEST C:\social_media_automation\cookies\durvesh\linkedin\Default\Local Storage\leveldb/MANIFEST-000001
+2025/05/07-15:54:50.699 23f8 Reusing MANIFEST C:\social_media_automation\cookies\durvesh\linkedin\Default\Local Storage\leveldb/MANIFEST-000001
+2025/05/07-15:54:50.720 23f8 Recovering log #3
+2025/05/07-15:54:50.740 23f8 Reusing old log C:\social_media_automation\cookies\durvesh\linkedin\Default\Local Storage\leveldb/000003.log 

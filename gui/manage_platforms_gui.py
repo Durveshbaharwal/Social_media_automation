@@ -22,17 +22,21 @@ def load_user_profile():
     with open(PROFILE_FILE, "r") as f:
         return json.load(f)
 
-def save_user_profile(profile):
-    with open(PROFILE_FILE, "w") as f:
-        json.dump(profile, f, indent=4)
+def open_platform_session(platform):
+    profile = load_user_profile()
+    if not profile:
+        messagebox.showerror("Error", "No profile found. Please create one first.")
+        return
 
-def open_platform_session(platform, profile_name):
     try:
-        cookies_path = os.path.join(COOKIES_DIR, profile_name.replace(" ", "_"), platform.lower())
+        profile_name = profile.get("name", "").replace(" ", "_")
+        cookies_path = os.path.join(os.getcwd(), COOKIES_DIR, profile_name, platform.lower())
         os.makedirs(cookies_path, exist_ok=True)
 
         options = Options()
         options.add_argument(f"--user-data-dir={cookies_path}")
+        options.add_argument("--disable-notifications")
+        options.add_argument("--start-maximized")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--disable-extensions")
@@ -50,12 +54,12 @@ def open_platform_session(platform, profile_name):
         messagebox.showerror("Error", f"Failed to open {platform} session:\n{str(e)}")
 
 def verify_password(entered_password, saved_password):
-    return entered_password == saved_password  # For real-world use, use a hash comparison
+    return entered_password == saved_password  # Ideally use hashed password in real app
 
 def manage_platforms_gui():
     profile = load_user_profile()
     if not profile:
-        messagebox.showerror("Error", "No profile found. Please create one first.")
+        messagebox.showerror("Error", "No profile found.")
         return
 
     # Authentication popup
@@ -72,16 +76,14 @@ def manage_platforms_gui():
     def authenticate():
         if verify_password(password_entry.get(), profile['password']):
             auth.destroy()
-            launch_platform_manager(profile)
+            launch_platform_manager()
         else:
             messagebox.showerror("Authentication Failed", "Incorrect password.")
 
     tk.Button(auth, text="Login", command=authenticate, bg="#4CAF50", fg="white", width=15).pack(pady=10)
     auth.mainloop()
 
-def launch_platform_manager(profile):
-    profile_name = profile['name']
-
+def launch_platform_manager():
     window = tk.Tk()
     window.title("Manage Platforms")
     window.geometry("400x400")
@@ -95,7 +97,7 @@ def launch_platform_manager(profile):
 
         tk.Label(frame, text=platform, bg="#f4f4f4", font=("Arial", 11)).pack(side=tk.LEFT, padx=10)
         tk.Button(frame, text="Manage", bg="#2196F3", fg="white", width=15,
-                  command=lambda p=platform: open_platform_session(p, profile_name)).pack(side=tk.LEFT)
+                  command=lambda p=platform: open_platform_session(p)).pack(side=tk.LEFT)
 
     window.mainloop()
 

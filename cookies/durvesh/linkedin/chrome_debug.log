@@ -1,21 +1,12 @@
-[31284:5792:0507/155450.406:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
-[31284:5792:0507/155456.595:INFO:CONSOLE(2)] "Error", source: https://client.protechts.net/PXdOjV695v/main.min.js (2)
-[29912:12088:0507/155457.103:INFO:peer_connection_dependency_factory.cc(802)] Running WebRTC with a combined Network and Worker thread.
-[29912:12088:0507/155458.058:WARNING:codec.cc(386)] Explicitly added H264 constrained baseline to list of supported formats.
-[31284:5792:0507/155458.846:INFO:CONSOLE(8)] "visitor.publishDestinations() result: The destination publishing iframe is already attached and loaded.", source: https://platform.linkedin.com/litms/utag/voyager-web-feed/utag.js?cb=1746613200000 (8)
-[31284:5792:0507/155459.998:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
-[31284:5792:0507/155459.998:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
-[31284:5792:0507/155500.428:INFO:CONSOLE(2737)] "quill Overwriting modules/clipboard with class extends n{onPaste(t){var e
-if(null===(e=t.clipboardData)||void 0===e?void 0:e.getData("text/link-preview")){const e=this.quill.getSelection()
-if(!e)return super.onPaste(t)
-t.preventDefault()
-const n=t.clipboardData.getData("text/plain"),s=(new i).retain(e.index).delete(e.length).insert(n)
-this.quill.updateContents(s,"silent")
-const r=n.length+e.index,o=0
-this.quill.setSelection(r,o,"silent")}return super.onPaste(t)}}", source: https://static.licdn.com/aero-v1/sc/h/8jmcdj44hildwvtn9li13iypm (2737)
-[31284:5792:0507/155500.463:INFO:CONSOLE(3287)] "Listener added for a 'DOMNodeInserted' mutation event. Support for this event type has been removed, and this event will no longer be fired. See https://chromestatus.com/feature/5083947249172480 for more information.", source: https://static.licdn.com/aero-v1/sc/h/8jmcdj44hildwvtn9li13iypm (3287)
-[31284:5792:0507/155500.635:INFO:CONSOLE(8)] "visitor.publishDestinations() result: The destination publishing iframe is already attached and loaded.", source: https://platform.linkedin.com/litms/utag/voyager-web-feed/utag.js?cb=1746613200000 (8)
-[21780:9776:0507/155501.251:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
-[21780:9776:0507/155501.251:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
-[31620:16076:0507/155501.928:ERROR:command_buffer_proxy_impl.cc(327)] GPU state invalid after WaitForGetOffsetInRange.
-[30112:30872:0507/155501.930:ERROR:command_buffer_proxy_impl.cc(327)] GPU state invalid after WaitForGetOffsetInRange.
+[31136:5636:0507/164014.162:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
+[9084:28548:0507/164019.640:ERROR:gles2_cmd_decoder_passthrough.cc(1081)] [GroupMarkerNotSet(crbug.com/242999)!:A0F024000C380000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content.
+[31136:5636:0507/164020.201:INFO:CONSOLE(0)] "[GroupMarkerNotSet(crbug.com/242999)!:A0F024000C380000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content.", source: https://www.linkedin.com/feed/ (0)
+[31136:5636:0507/164021.105:INFO:CONSOLE(2)] "Error", source: https://client.protechts.net/PXdOjV695v/main.min.js (2)
+[9084:28548:0507/164022.240:ERROR:gles2_cmd_decoder_passthrough.cc(1081)] [GroupMarkerNotSet(crbug.com/242999)!:A0C024000C380000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content.
+[31136:5636:0507/164022.290:INFO:CONSOLE(0)] "[GroupMarkerNotSet(crbug.com/242999)!:A0C024000C380000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content.", source: https://merchantpool1.linkedin.com/?session_id=f0791207-35fe-4920-823f-7c390880f43d&CustomerId=fb6bbd47-fa7c-4264-b4e9-b25948407586&PageId=&w=8DD8D57C462C0F4&mdt=1746616221385&rticks=1746616225295&u1=&u3=19.0.0&u4=x86&u5=64&u2=(Google%20Chrome%2C135.0.7049.115)%2C(Not-A.Brand%2C8.0.0.0)%2C(Chromium%2C135.0.7049.115) (0)
+[4864:29088:0507/164022.451:INFO:peer_connection_dependency_factory.cc(802)] Running WebRTC with a combined Network and Worker thread.
+[9084:28548:0507/164022.514:ERROR:gles2_cmd_decoder_passthrough.cc(1081)] [GroupMarkerNotSet(crbug.com/242999)!:A05025000C380000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content.
+[9084:28548:0507/164022.527:ERROR:gles2_cmd_decoder_passthrough.cc(1081)] [GroupMarkerNotSet(crbug.com/242999)!:A08025000C380000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content.
+[9084:28548:0507/164022.587:ERROR:gl_utils.cc(431)] [.WebGL-0x10c40969db00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[30608:16076:0507/164022.745:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[30608:16076:0507/164022.745:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.

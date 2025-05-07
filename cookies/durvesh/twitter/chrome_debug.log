@@ -1,0 +1,5 @@
+[4944:11768:0507/164002.368:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
+[20216:9828:0507/164004.285:INFO:peer_connection_dependency_factory.cc(802)] Running WebRTC with a combined Network and Worker thread.
+[4944:11768:0507/164004.833:INFO:CONSOLE(0)] "Access to fetch at 'https://analytics.twitter.com/measurement/personalization_id_sync?twid_cookie_exchange=u%253D1835995694009909248' from origin 'https://x.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.", source: https://x.com/home (0)
+[21864:19624:0507/164008.951:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[21864:19624:0507/164008.951:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
