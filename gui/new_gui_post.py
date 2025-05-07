@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox, ttk, filedialog
 import datetime
+from gui.manage_platforms_gui import manage_platforms_gui
 from utils.scheduler import schedule_post_with_repeat
 from dispatcher.post_dispatcher import dispatch_post
 from utils.logger import log_post
@@ -166,6 +167,7 @@ class PostCreationApp:
         self.frequency_menu = ttk.Combobox(root, textvariable=self.frequency_var, values=["None", "Daily", "Weekly"], state="readonly")
 
         # --- Post Button ---
+        self.manage_button = tk.Button(root, text="Manage Profile", command=manage_platforms_gui, bg="#FF9800", fg="white")
         self.post_button = tk.Button(root, text="Post", command=self.create_post)
 
         self.layout_widgets()

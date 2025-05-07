@@ -1,11 +1,10 @@
 {
-    "title": "AI Alpha Tech",
-    "text": "this is our first post using Automation system",
-    "hashtags": "#socialmediaAutomation",
-    "media_type": "All",
+    "title": "agrrg",
+    "text": "ararhhr",
+    "hashtags": "ahrhhaah",
+    "media_type": "Image",
     "media_paths": [
-        "E:/Videos/pxfuel.jpg",
-        "E:/Videos/03.01.2022_11.09.16_REC.mp4"
+        "D:/Users/ASUS/2XN15kW7o5Qnvfq2ggnoIOUbyoD-mobile.jpg"
     ],
     "platforms": {
         "Facebook": true,
@@ -14,9 +13,9 @@
         "LinkedIn": true
     },
     "facebook_options": {
-        "story_selected": true,
+        "story_selected": false,
         "post_selected": true,
-        "story_options": "Photo Story",
+        "story_options": "",
         "post_options": {
             "Only Text": false,
             "Only Image": false,
@@ -27,11 +26,11 @@
     "linkedin_option": "Image Posts",
     "instagram_options": {
         "Post": true,
-        "Reel": true,
-        "Story": true
+        "Reel": false,
+        "Story": false
     },
     "instagram_post_orientation": "Square",
-    "instagram_reel_orientation": "Portrait",
+    "instagram_reel_orientation": "",
     "twitter_options": {
         "Only Text": false,
         "Only Videos": false,

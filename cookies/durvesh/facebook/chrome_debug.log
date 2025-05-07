@@ -1,0 +1,13 @@
+[30584:2808:0507/155432.075:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
+[7968:31364:0507/155435.682:INFO:peer_connection_dependency_factory.cc(802)] Running WebRTC with a combined Network and Worker thread.
+[7968:31364:0507/155436.492:WARNING:codec.cc(386)] Explicitly added H264 constrained baseline to list of supported formats.
+[30584:2808:0507/155438.138:INFO:CONSOLE(72)] "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment", source: https://accounts.google.com/gsi/client (72)
+[30584:2808:0507/155438.148:INFO:CONSOLE(0)] "Not signed in with the identity provider.", source: https://x.com/i/flow/login?redirect_after_login=%2Fhome (0)
+[30584:2808:0507/155438.148:INFO:CONSOLE(73)] "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason", source: https://accounts.google.com/gsi/client (73)
+[30584:2808:0507/155438.149:INFO:CONSOLE(0)] "Not signed in with the identity provider.", source: https://x.com/i/flow/login?redirect_after_login=%2Fhome (0)
+[30584:2808:0507/155438.149:INFO:CONSOLE(0)] "Not signed in with the identity provider.", source: https://x.com/i/flow/login?redirect_after_login=%2Fhome (0)
+[30584:2808:0507/155438.178:INFO:CONSOLE(73)] "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason", source: https://accounts.google.com/gsi/client (73)
+[30584:2808:0507/155438.728:INFO:CONSOLE(0)] "Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner.", source: https://x.com/i/flow/login?redirect_after_login=%2Fhome (0)
+[30584:2808:0507/155440.475:INFO:CONSOLE(73)] "[GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token.", source: https://accounts.google.com/gsi/client (73)
+[23980:31220:0507/155444.525:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[23980:31220:0507/155444.525:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.

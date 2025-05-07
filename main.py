@@ -1,6 +1,7 @@
 import os
 import json
 import tkinter as tk
+from gui.manage_platforms_gui import manage_platforms_gui
 from gui.profile_setup_gui import ProfileSetupApp
 from gui.new_gui_post import PostCreationApp
 
@@ -16,8 +17,8 @@ def launch_profile_setup():
     ProfileSetupApp(profile_window)
     profile_window.mainloop()
 
-def ask_continue_with_existing_profile(username):
-    prompt_window = tk.Tk()
+def ask_continue_with_existing_profile(username, root):
+    prompt_window = tk.Toplevel(root)
     prompt_window.title("Profile Detected")
     prompt_window.geometry("400x200")
     prompt_window.configure(bg="#f2f2f2")
@@ -39,6 +40,9 @@ def ask_continue_with_existing_profile(username):
     tk.Button(btn_frame, text="Continue", command=continue_with_profile, width=20, bg="#4CAF50", fg="white").pack(side=tk.LEFT, padx=10)
     tk.Button(btn_frame, text="Login with Different Account", command=login_with_different, width=25, bg="#f44336", fg="white").pack(side=tk.LEFT, padx=10)
 
+    # Optional Manage Profile Button
+    tk.Button(prompt_window, text="Manage Profile", command=manage_platforms_gui, bg="#FF9800", fg="white", width=20).pack(pady=10)
+
     prompt_window.mainloop()
 
 def main():
@@ -47,13 +51,17 @@ def main():
             with open(PROFILE_FILE, "r") as f:
                 data = json.load(f)
                 username = data.get("username", "Unknown User")
-                ask_continue_with_existing_profile(username)
+                root = tk.Tk()
+                root.withdraw()  # Hide the unused root window
+                ask_continue_with_existing_profile(username, root)
         except Exception as e:
             print(f"Error reading profile: {e}")
             launch_profile_setup()
     else:
         print("No profile found. Launching profile setup...")
         launch_profile_setup()
+
+    root.mainloop()
 
 if __name__ == "__main__":
     main()
