@@ -1,9 +1,10 @@
 import tkinter as tk
+import subprocess
 from tkinter import messagebox, ttk, filedialog
 import datetime
-from utils.scheduler import schedule_post_with_repeat
+import subprocess
+import os
 from dispatcher.post_dispatcher import dispatch_post
-from utils.logger import log_post
 import json
 
 class PostCreationApp:
@@ -202,7 +203,19 @@ class PostCreationApp:
         self.schedule_time_entry.grid(row=11, column=2, padx=pad_x, pady=pad_y, sticky="we")
         self.frequency_label.grid(row=12, column=1, padx=pad_x, pady=pad_y, sticky="e")
         self.frequency_menu.grid(row=12, column=2, padx=pad_x, pady=pad_y, sticky="we")
-        self.post_button.grid(row=13, column=1, columnspan=2, pady=20)
+        self.post_button.grid(row=13, column=1, pady=20, sticky="e")
+        self.manage_button = tk.Button(self.root, text="Manage Platforms", command=self.open_manage_platform)
+        self.manage_button.grid(row=13, column=2, pady=20, sticky="w")
+
+        
+    def open_manage_platform(self):
+        try:
+            # Relative path from current file
+            path = os.path.join(os.path.dirname(__file__), 'manage_platforms.py')
+            subprocess.Popen(['python', path])
+        except Exception as e:
+            messagebox.showerror("Error", f"Could not open Manage Platform: {e}")
+
 
     def toggle_media_fields(self):
         mtype = self.media_type_var.get()

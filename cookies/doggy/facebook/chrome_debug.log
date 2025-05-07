@@ -1,0 +1,12 @@
+[11728:2528:0507/200637.557:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
+[11728:2528:0507/200638.955:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://www.facebook.com/ (0)
+[11728:2528:0507/200639.144:INFO:CONSOLE(0)] "
+%cStop! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black;", source:  (0)
+[11728:2528:0507/200639.144:INFO:CONSOLE(0)] "
+%cThis is a browser feature intended for developers. If someone told you to copy and paste something here to enable a Facebook feature or "hack" someone's account, it is a scam and will give them access to your Facebook account. font-family:helvetica; font-size:20px; ", source:  (0)
+[11728:2528:0507/200639.144:INFO:CONSOLE(0)] "
+%cSee https://www.facebook.com/selfxss for more information. font-family:helvetica; font-size:20px; ", source:  (0)
+[11728:2528:0507/200639.144:INFO:CONSOLE(0)] "
+%c ", source:  (0)
+[29160:31312:0507/200646.272:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[29160:31312:0507/200646.273:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.

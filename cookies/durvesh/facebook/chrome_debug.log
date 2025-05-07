@@ -1,3 +1,1 @@
-[7064:28408:0507/163838.214:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
-[19136:5792:0507/163842.074:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
-[19136:5792:0507/163842.074:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[26692:1796:0507/200531.517:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.

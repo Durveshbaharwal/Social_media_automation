@@ -1,29 +1,27 @@
 {
-    "title": "agrrg",
-    "text": "ararhhr",
-    "hashtags": "ahrhhaah",
-    "media_type": "Image",
-    "media_paths": [
-        "D:/Users/ASUS/2XN15kW7o5Qnvfq2ggnoIOUbyoD-mobile.jpg"
-    ],
+    "title": "affa",
+    "text": "fafa",
+    "hashtags": "aff",
+    "media_type": "All",
+    "media_paths": [],
     "platforms": {
-        "Facebook": true,
+        "Facebook": false,
         "Instagram": true,
-        "Twitter": true,
-        "LinkedIn": true
+        "Twitter": false,
+        "LinkedIn": false
     },
     "facebook_options": {
         "story_selected": false,
-        "post_selected": true,
+        "post_selected": false,
         "story_options": "",
         "post_options": {
             "Only Text": false,
             "Only Image": false,
             "Only Video": false,
-            "All": true
+            "All": false
         }
     },
-    "linkedin_option": "Image Posts",
+    "linkedin_option": "None",
     "instagram_options": {
         "Post": true,
         "Reel": false,
@@ -35,7 +33,7 @@
         "Only Text": false,
         "Only Videos": false,
         "Only Images": false,
-        "All": true
+        "All": false
     },
     "schedule_post": false,
     "schedule_time": "",
