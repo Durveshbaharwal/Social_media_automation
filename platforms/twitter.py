@@ -1,6 +1,7 @@
 import sys
 import os
 import time
+import json
 import mimetypes
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -25,13 +26,30 @@ def get_post_data():
     except IndexError:
         print("Usage: python twitter.py <title> <text> <hashtags> <media_path> <Only Text> <Only Videos> <Only Images> <All>")
         sys.exit(1)
+        
+# Load active profile
+PROFILE_FILE = "data/profiles.json"
+
+with open(PROFILE_FILE, "r") as f:
+    profile = json.load(f)
+    
+profile_name = profile.get("name", "").replace(" ", "_")
+platform = "Facebook"  # <-- Update this per script
+
+# Set cookies path
+cookies_path = os.path.join(os.getcwd(), "cookies", profile_name, platform.lower())
+os.makedirs(cookies_path, exist_ok=True)
+
+# Launch browser with isolated cookies
+opts = Options()
+opts.add_argument(f"user-data-dir={cookies_path}")
+opts.add_argument("--disable-notifications")
+opts.add_argument("--start-maximized")
 
 def post_to_twitter(caption, media_path, only_text, only_videos, only_images, all_media):
-    options = Options()
-    options.add_argument(f"user-data-dir={os.path.join(os.getcwd(), 'cookies')}")
-    options.add_argument("--start-maximized")
 
-    driver = webdriver.Chrome(options=options)
+
+    driver = webdriver.Chrome(options=opts)
     driver.get("https://twitter.com/home")
     time.sleep(5)
 

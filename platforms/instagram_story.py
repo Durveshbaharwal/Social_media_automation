@@ -1,6 +1,7 @@
 import sys
 import os
 import time
+import json
 import pyautogui
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -30,15 +31,31 @@ def get_story_data():
     return media_list
 
 
+# Load active profile
+PROFILE_FILE = "data/profiles.json"
+
+with open(PROFILE_FILE, "r") as f:
+    profile = json.load(f)
+    
+profile_name = profile.get("name", "").replace(" ", "_")
+platform = "Instagram"  # <-- Update this per script
+
+# Set cookies path
+cookies_path = os.path.join(os.getcwd(), "cookies", profile_name, platform.lower())
+os.makedirs(cookies_path, exist_ok=True)
+
+# Launch browser with isolated cookies
+opts = Options()
+opts.add_argument(f"user-data-dir={cookies_path}")
+opts.add_argument("--disable-notifications")
+opts.add_argument("--start-maximized")
+
 
 def upload_story(media_list):
     mobile_emulation = {
         "deviceName": "Pixel 2"
     }
-
-    options = Options()
-    options.add_argument(f"user-data-dir={os.path.join(os.getcwd(), 'cookies')}")
-    options.add_experimental_option("mobileEmulation", mobile_emulation)
+    opts.add_experimental_option("mobileEmulation", mobile_emulation)
 
     driver = webdriver.Chrome(options=options)
     driver.get("https://www.instagram.com/")
