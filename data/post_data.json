@@ -1,21 +1,21 @@
 {
     "title": "affa",
-    "text": "fafa",
-    "hashtags": "aff",
-    "media_type": "All",
+    "text": "afa",
+    "hashtags": "af",
+    "media_type": "None",
     "media_paths": [],
     "platforms": {
-        "Facebook": false,
-        "Instagram": true,
+        "Facebook": true,
+        "Instagram": false,
         "Twitter": false,
         "LinkedIn": false
     },
     "facebook_options": {
         "story_selected": false,
-        "post_selected": false,
+        "post_selected": true,
         "story_options": "",
         "post_options": {
-            "Only Text": false,
+            "Only Text": true,
             "Only Image": false,
             "Only Video": false,
             "All": false
@@ -23,11 +23,11 @@
     },
     "linkedin_option": "None",
     "instagram_options": {
-        "Post": true,
+        "Post": false,
         "Reel": false,
         "Story": false
     },
-    "instagram_post_orientation": "Square",
+    "instagram_post_orientation": "",
     "instagram_reel_orientation": "",
     "twitter_options": {
         "Only Text": false,
