@@ -1,7 +1,8 @@
 {
-    "durveshbaharwal": {
-        "name": "durvesh",
-        "username": "durveshbaharwal",
-        "password": "Durvesh@2002"
-    }
+    "name": "durvesh",
+    "username": "Durvesh2002",
+    "password": "Durvesh@2002",
+    "platforms": [
+        "Twitter"
+    ]
 }

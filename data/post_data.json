@@ -1,39 +1,42 @@
 {
-    "title": "affa",
-    "text": "afa",
-    "hashtags": "af",
-    "media_type": "None",
-    "media_paths": [],
+    "title": "AI Alpha Tech",
+    "text": "this is our first post using Automation system",
+    "hashtags": "#socialmediaAutomation",
+    "media_type": "All",
+    "media_paths": [
+        "E:/Videos/pxfuel.jpg",
+        "E:/Videos/03.01.2022_11.09.16_REC.mp4"
+    ],
     "platforms": {
         "Facebook": true,
-        "Instagram": false,
-        "Twitter": false,
-        "LinkedIn": false
+        "Instagram": true,
+        "Twitter": true,
+        "LinkedIn": true
     },
     "facebook_options": {
-        "story_selected": false,
+        "story_selected": true,
         "post_selected": true,
-        "story_options": "",
+        "story_options": "Photo Story",
         "post_options": {
-            "Only Text": true,
+            "Only Text": false,
             "Only Image": false,
             "Only Video": false,
-            "All": false
+            "All": true
         }
     },
-    "linkedin_option": "None",
+    "linkedin_option": "Image Posts",
     "instagram_options": {
-        "Post": false,
-        "Reel": false,
-        "Story": false
+        "Post": true,
+        "Reel": true,
+        "Story": true
     },
-    "instagram_post_orientation": "",
-    "instagram_reel_orientation": "",
+    "instagram_post_orientation": "Square",
+    "instagram_reel_orientation": "Portrait",
     "twitter_options": {
         "Only Text": false,
         "Only Videos": false,
         "Only Images": false,
-        "All": false
+        "All": true
     },
     "schedule_post": false,
     "schedule_time": "",
